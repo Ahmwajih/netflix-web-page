@@ -1,0 +1,98 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+*{
+    margin: 0,
+    box-sizing: border-box;
+}
+#container {
+    display:flex;
+    align-items: center;
+    padding: 500px;
+    height: 100vh; 
+    background-image: url(netflixdisplay.jpg);
+    background-repeat: cover;
+    color: white;
+    justify-content: center;
+    background-position: center; 
+
+}
+
+#Title {
+    display:block;
+    background-color: rgba(0, 0, 0, 0.5); /* backgroun with 85% transparent */
+    padding: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    height: vh;
+    position: relative;
+    background-position: center; 
+
+}
+
+.netflix {
+    font-size: 50px;
+    font-family: 'Titan One', sans-serif;
+    font-weight: Bold;
+    font-variant: ;
+    color: rgb(214, 16, 16); 
+}
+
+.netflix .white {
+    color: white;
+}
+
+.netflix .red {
+    color: rgb(214, 16, 16);
+}
+
+#description {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* backgroun with 85% transparent */
+    padding:5% 5% 5% 5%;
+    border-radius: 8px;
+    background-position: center; 
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    align-items: left;
+    padding:15px;
+    margin:10px 25px 10px 25px;
+    text-align: left;
+}
+.movie{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+.gender {
+    display: block;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;}
+
+    #comment {
+    text-align: left;
+}
+
+
+#submit {
+    display: inline-block;
+    color: white;
+    background-color: #e50914 ;    
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  
+}
